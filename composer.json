@@ -5,12 +5,27 @@
     "license": "MIT",
     "require": {
         "php": "^7.3",
+        "ext-mbstring": "*",
         "jgrossi/corcel": "^2.0",
-        "myclabs/php-enum": "^1.6"
+        "myclabs/php-enum": "^1.6",
+        "laravel/framework": "^5.5"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.4",
-        "phpmd/phpmd": "^2.6"
+        "phpmd/phpmd": "^2.6",
+        "orchestra/testbench": "^3.8",
+        "orchestra/database": "^3.8",
+        "phpunit/phpunit": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Siero\\Corcel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Siero\\Corcel\\Tests\\": "tests/"
+        }
     },
     "authors": [
         {

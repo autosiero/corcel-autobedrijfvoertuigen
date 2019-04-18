@@ -5,11 +5,14 @@ vehicles in your WordPress installation in Laravel.
 
 ## Key features
 
+This package adds a `Siero\\Corcel\\Vehicle` model to use with Corcel, which can be used to
+retrieve a vehicle from your WordPress installation with most properties available.
+
 The code follows the structure installed by Corcel, and has some key points:
 
 - Contains enums for fuel, transmission, colour, vehicle kind, energy rating and more
-- Vehicles and accessories are read-only, to prevent clashes with the plugin
-- Auto discovery for Laravel 5.5+
+- Base Vehicle object, with all accessories and images as child items (through relations)
+- Full support for accessory groups
 
 [1]: https://tussendoor.nl/wordpress-plugins/autobedrijf-voertuigen-wordpress-plugin
 [2]: https://github.com/corcel/corcel
