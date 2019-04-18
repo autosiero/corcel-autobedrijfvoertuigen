@@ -1,0 +1,22 @@
+{
+    "name": "autosiero/corcel-autobedrijfvoertuigen",
+    "description": "Links your Autobedrijf Voertuigen database from WordPress with your Laravel application",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.3",
+        "jgrossi/corcel": "^2.0",
+        "myclabs/php-enum": "^1.6"
+    },
+    "authors": [
+        {
+            "name": "Auto Siero",
+            "homepage": "https://autosiero.dev/",
+            "email": "marketing@autosiero.nl"
+        },
+        {
+            "name": "Roelof Roos",
+            "email": "github@roelof.io"
+        }
+    ]
+}
